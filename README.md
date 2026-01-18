@@ -112,7 +112,7 @@ npm install
 cd backend/demo
 mvn spring-boot:run
 ```
-Backend will be available at: `http://localhost:8080`
+Backend will be available at: `http://localhost:8081`
 
 ### Start Frontend
 ```bash
@@ -248,10 +248,10 @@ mvn test
 
 ### CORS Error
 - Backend has `@CrossOrigin` annotation enabled
-- Frontend must use correct backend URL (http://localhost:8080)
+- Frontend must use correct backend URL (http://localhost:8081)
 
 ### Port Already in Use
-- Backend: Change port in `application.properties` with `server.port=8081`
+- Backend: Change port in `application.properties` with `server.port=8082` (or any available port)
 - Frontend: Change port in `vite.config.js`
 
 ## 📝 License
@@ -264,6 +264,5 @@ Created as part of TrishivaX-Homework project
 
 ---
 
-For more information or issues, please contact the development team.
 " 
 
